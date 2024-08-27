@@ -1,0 +1,291 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserManager",
+        "printedName": "UserManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createUser",
+            "printedName": "createUser(username:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22IBM_iOS_Workshop_Utils11UserManagerC06createE08usernameySS_tFZ",
+            "mangledName": "$s22IBM_iOS_Workshop_Utils11UserManagerC06createE08usernameySS_tFZ",
+            "moduleName": "IBM_iOS_Workshop_Utils",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22IBM_iOS_Workshop_Utils11UserManagerC3add5imageySo7UIImageC_tFZ",
+            "mangledName": "$s22IBM_iOS_Workshop_Utils11UserManagerC3add5imageySo7UIImageC_tFZ",
+            "moduleName": "IBM_iOS_Workshop_Utils",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchImage",
+            "printedName": "fetchImage(imageView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22IBM_iOS_Workshop_Utils11UserManagerC10fetchImage9imageViewySo07UIImageJ0C_tFZ",
+            "mangledName": "$s22IBM_iOS_Workshop_Utils11UserManagerC10fetchImage9imageViewySo07UIImageJ0C_tFZ",
+            "moduleName": "IBM_iOS_Workshop_Utils",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startQuiz",
+            "printedName": "startQuiz(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22IBM_iOS_Workshop_Utils11UserManagerC9startQuiz14viewControllerySo06UIViewJ0C_tFZ",
+            "mangledName": "$s22IBM_iOS_Workshop_Utils11UserManagerC9startQuiz14viewControllerySo06UIViewJ0C_tFZ",
+            "moduleName": "IBM_iOS_Workshop_Utils",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22IBM_iOS_Workshop_Utils11UserManagerC",
+        "mangledName": "$s22IBM_iOS_Workshop_Utils11UserManagerC",
+        "moduleName": "IBM_iOS_Workshop_Utils",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseDatabase",
+        "printedName": "FirebaseDatabase",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IBM_iOS_Workshop_Utils",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/FirebaseHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 32,
+      "value": "\"What is the capital of France?\""
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "Array",
+      "offset": 292,
+      "length": 29,
+      "value": "[\"Paris\", \"Berlin\", \"Madrid\"]"
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 7,
+      "value": "\"Paris\""
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 16,
+      "value": "\"What is 2 + 2?\""
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "Array",
+      "offset": 377,
+      "length": 15,
+      "value": "[\"3\", \"4\", \"5\"]"
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 3,
+      "value": "\"4\""
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 31,
+      "value": "\"What is the color of the sky?\""
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "Array",
+      "offset": 459,
+      "length": 24,
+      "value": "[\"Green\", \"Blue\", \"Red\"]"
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 6,
+      "value": "\"Blue\""
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/XOREncryptionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 14,
+      "value": "\"iOS_Workshop\""
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45CACCF693AC70CAB5EFB7D9 /* Pods_IBM_iOS_Workshop_IBM_iOS_WorkshopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F15CBAAD2B535CE97B4E3D9 /* Pods_IBM_iOS_Workshop_IBM_iOS_WorkshopUITests.framework */; };
+		BA11F4342C16EE0700A35582 /* UITestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11F4332C16EE0700A35582 /* UITestWrapper.swift */; };
+		BA3409AF2C58F93400D3A50F /* StoryboardIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3409AE2C58F93400D3A50F /* StoryboardIdentifiers.swift */; };
+		BAA2AEE02C5D366B00A860F9 /* IBM_Workshop_UI_Test.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2AEDF2C5D366B00A860F9 /* IBM_Workshop_UI_Test.xcframework */; };
+		BAEB5ADE2BC71FAA00A1A77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5ADD2BC71FAA00A1A77F /* AppDelegate.swift */; };
+		BAEB5AE02BC71FAA00A1A77F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5ADF2BC71FAA00A1A77F /* SceneDelegate.swift */; };
+		BAEB5AE22BC71FAA00A1A77F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB5AE12BC71FAA00A1A77F /* LoginViewController.swift */; };
+		BAEB5AE52BC71FAA00A1A77F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BAEB5AE42BC71FAA00A1A77F /* Base */; };
+		BAEB5AE72BC71FAA00A1A77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEB5AE62BC71FAA00A1A77F /* Assets.xcassets */; };
+		BAEB5AEA2BC71FAA00A1A77F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BAEB5AE92BC71FAA00A1A77F /* Base */; };
+		EDCC9F1C8A52DDBD0DE3C94B /* Pods_IBM_iOS_Workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33683F297286FD67F83CDD /* Pods_IBM_iOS_Workshop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8384482C16E4F900414E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEB5AD22BC71FAA00A1A77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEB5AD92BC71FAA00A1A77F;
+			remoteInfo = IBM_iOS_Workshop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAC475EA2C2053EB002A57F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A33683F297286FD67F83CDD /* Pods_IBM_iOS_Workshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBM_iOS_Workshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F15CBAAD2B535CE97B4E3D9 /* Pods_IBM_iOS_Workshop_IBM_iOS_WorkshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBM_iOS_Workshop_IBM_iOS_WorkshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF3686A1916DD4D66112021 /* Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.release.xcconfig"; path = "Target Support Files/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		708CDC43FA28495C4642AB7C /* Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.debug.xcconfig"; path = "Target Support Files/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8CC0B0C67FC0298CEDFC4C /* Pods-IBM_iOS_Workshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBM_iOS_Workshop.release.xcconfig"; path = "Target Support Files/Pods-IBM_iOS_Workshop/Pods-IBM_iOS_Workshop.release.xcconfig"; sourceTree = "<group>"; };
+		B129895A853BBBE14649CD52 /* Pods-IBM_iOS_Workshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBM_iOS_Workshop.debug.xcconfig"; path = "Target Support Files/Pods-IBM_iOS_Workshop/Pods-IBM_iOS_Workshop.debug.xcconfig"; sourceTree = "<group>"; };
+		BA11F4332C16EE0700A35582 /* UITestWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestWrapper.swift; sourceTree = "<group>"; };
+		BA3409AE2C58F93400D3A50F /* StoryboardIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiers.swift; sourceTree = "<group>"; };
+		BA8384422C16E4F900414E2E /* IBM_iOS_WorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBM_iOS_WorkshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA2AEDF2C5D366B00A860F9 /* IBM_Workshop_UI_Test.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IBM_Workshop_UI_Test.xcframework; sourceTree = "<group>"; };
+		BABCDD832C4414E300E5CD14 /* IBM_iOS_Workshop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IBM_iOS_Workshop.entitlements; sourceTree = "<group>"; };
+		BAC475E52C2052BD002A57F6 /* IBM_iOS_WorkshopUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = IBM_iOS_WorkshopUITests.xctestplan; sourceTree = "<group>"; };
+		BAE54F532C663F2A0077BF13 /* IBM_iOS_Workshop_Utils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IBM_iOS_Workshop_Utils.xcframework; sourceTree = "<group>"; };
+		BAEB5ADA2BC71FAA00A1A77F /* IBM_iOS_Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBM_iOS_Workshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEB5ADD2BC71FAA00A1A77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAEB5ADF2BC71FAA00A1A77F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAEB5AE12BC71FAA00A1A77F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAEB5AE42BC71FAA00A1A77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		BAEB5AE62BC71FAA00A1A77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEB5AE92BC71FAA00A1A77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAEB5AEB2BC71FAA00A1A77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA83843F2C16E4F900414E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA2AEE02C5D366B00A860F9 /* IBM_Workshop_UI_Test.xcframework in Frameworks */,
+				45CACCF693AC70CAB5EFB7D9 /* Pods_IBM_iOS_Workshop_IBM_iOS_WorkshopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEB5AD72BC71FAA00A1A77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCC9F1C8A52DDBD0DE3C94B /* Pods_IBM_iOS_Workshop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6BEAEF58D772948724C4C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B129895A853BBBE14649CD52 /* Pods-IBM_iOS_Workshop.debug.xcconfig */,
+				9B8CC0B0C67FC0298CEDFC4C /* Pods-IBM_iOS_Workshop.release.xcconfig */,
+				708CDC43FA28495C4642AB7C /* Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.debug.xcconfig */,
+				6DF3686A1916DD4D66112021 /* Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA3409A82C58EAFF00D3A50F /* ProfilePicture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfilePicture;
+			sourceTree = "<group>";
+		};
+		BA3409AD2C58F92700D3A50F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BA3409AE2C58F93400D3A50F /* StoryboardIdentifiers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BA8384372C16DD5900414E2E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB5AE12BC71FAA00A1A77F /* LoginViewController.swift */,
+				BAEB5AE32BC71FAA00A1A77F /* Login.storyboard */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BA8384432C16E4F900414E2E /* IBM_iOS_WorkshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA11F4332C16EE0700A35582 /* UITestWrapper.swift */,
+			);
+			path = IBM_iOS_WorkshopUITests;
+			sourceTree = "<group>";
+		};
+		BAC475E62C2053EB002A57F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE54F532C663F2A0077BF13 /* IBM_iOS_Workshop_Utils.xcframework */,
+				BAA2AEDF2C5D366B00A860F9 /* IBM_Workshop_UI_Test.xcframework */,
+				1A33683F297286FD67F83CDD /* Pods_IBM_iOS_Workshop.framework */,
+				3F15CBAAD2B535CE97B4E3D9 /* Pods_IBM_iOS_Workshop_IBM_iOS_WorkshopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAEB5AD12BC71FAA00A1A77F = {
+			isa = PBXGroup;
+			children = (
+				BAC475E52C2052BD002A57F6 /* IBM_iOS_WorkshopUITests.xctestplan */,
+				BAEB5ADC2BC71FAA00A1A77F /* IBM_iOS_Workshop */,
+				BA8384432C16E4F900414E2E /* IBM_iOS_WorkshopUITests */,
+				BAEB5ADB2BC71FAA00A1A77F /* Products */,
+				BAC475E62C2053EB002A57F6 /* Frameworks */,
+				9D6BEAEF58D772948724C4C4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEB5ADB2BC71FAA00A1A77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB5ADA2BC71FAA00A1A77F /* IBM_iOS_Workshop.app */,
+				BA8384422C16E4F900414E2E /* IBM_iOS_WorkshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEB5ADC2BC71FAA00A1A77F /* IBM_iOS_Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				BA3409AD2C58F92700D3A50F /* Utils */,
+				BA3409A82C58EAFF00D3A50F /* ProfilePicture */,
+				BABCDD832C4414E300E5CD14 /* IBM_iOS_Workshop.entitlements */,
+				BA8384372C16DD5900414E2E /* Authentication */,
+				BAEB5ADD2BC71FAA00A1A77F /* AppDelegate.swift */,
+				BAEB5ADF2BC71FAA00A1A77F /* SceneDelegate.swift */,
+				BAEB5AE62BC71FAA00A1A77F /* Assets.xcassets */,
+				BAEB5AE82BC71FAA00A1A77F /* LaunchScreen.storyboard */,
+				BAEB5AEB2BC71FAA00A1A77F /* Info.plist */,
+			);
+			path = IBM_iOS_Workshop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8384412C16E4F900414E2E /* IBM_iOS_WorkshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA83844A2C16E4F900414E2E /* Build configuration list for PBXNativeTarget "IBM_iOS_WorkshopUITests" */;
+			buildPhases = (
+				0A37FC304402840BB89E87C6 /* [CP] Check Pods Manifest.lock */,
+				BA83843E2C16E4F900414E2E /* Sources */,
+				BA83843F2C16E4F900414E2E /* Frameworks */,
+				BA8384402C16E4F900414E2E /* Resources */,
+				2C5605CB9515651FEA41971F /* [CP] Embed Pods Frameworks */,
+				BAC475EA2C2053EB002A57F6 /* Embed Frameworks */,
+				BA34098C2C4FE4D100D3A50F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8384492C16E4F900414E2E /* PBXTargetDependency */,
+			);
+			name = IBM_iOS_WorkshopUITests;
+			productName = IBM_iOS_WorkshopUITests;
+			productReference = BA8384422C16E4F900414E2E /* IBM_iOS_WorkshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BAEB5AD92BC71FAA00A1A77F /* IBM_iOS_Workshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEB5B042BC71FAA00A1A77F /* Build configuration list for PBXNativeTarget "IBM_iOS_Workshop" */;
+			buildPhases = (
+				F06525B4E0636451A65DB4A7 /* [CP] Check Pods Manifest.lock */,
+				BAEB5AD62BC71FAA00A1A77F /* Sources */,
+				BAEB5AD72BC71FAA00A1A77F /* Frameworks */,
+				BAEB5AD82BC71FAA00A1A77F /* Resources */,
+				E8BDE4C2D06649A986EA31B4 /* [CP] Embed Pods Frameworks */,
+				BA34098B2C4FDD9A00D3A50F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBM_iOS_Workshop;
+			productName = IBM_iOS_Workshop;
+			productReference = BAEB5ADA2BC71FAA00A1A77F /* IBM_iOS_Workshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEB5AD22BC71FAA00A1A77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BA8384412C16E4F900414E2E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BAEB5AD92BC71FAA00A1A77F;
+					};
+					BAEB5AD92BC71FAA00A1A77F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BAEB5AD52BC71FAA00A1A77F /* Build configuration list for PBXProject "IBM_iOS_Workshop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEB5AD12BC71FAA00A1A77F;
+			productRefGroup = BAEB5ADB2BC71FAA00A1A77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEB5AD92BC71FAA00A1A77F /* IBM_iOS_Workshop */,
+				BA8384412C16E4F900414E2E /* IBM_iOS_WorkshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8384402C16E4F900414E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEB5AD82BC71FAA00A1A77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB5AE72BC71FAA00A1A77F /* Assets.xcassets in Resources */,
+				BAEB5AEA2BC71FAA00A1A77F /* Base in Resources */,
+				BAEB5AE52BC71FAA00A1A77F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A37FC304402840BB89E87C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5605CB9515651FEA41971F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests/Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA34098B2C4FDD9A00D3A50F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\n# Define the base path for the .xcframework\nBASE_PATH=\"Frameworks/IBM_iOS_Workshop_Utils.framework\"\n\n# Construct the path to the script\nSCRIPT_RELATIVE_PATH=\"${BASE_PATH}/generate_id.sh\"\nSCRIPT_ABSOLUTE_PATH=\"${CONFIGURATION_BUILD_DIR}/${PRODUCT_NAME}.app/${SCRIPT_RELATIVE_PATH}\"\n\n# Debug: Print the SCRIPT_ABSOLUTE_PATH\necho \"SCRIPT_ABSOLUTE_PATH: $SCRIPT_ABSOLUTE_PATH\"\n\n# Verify if the script file exists\nif [ ! -f \"$SCRIPT_ABSOLUTE_PATH\" ]; then\n    echo \"Script file does not exist at: $SCRIPT_ABSOLUTE_PATH\"\n    exit 1\nfi\n\n# Ensure the script is executable\nchmod +x \"$SCRIPT_ABSOLUTE_PATH\"\n\n# Print message before running the script\necho \"Running the script...\"\n\n# Run the script and capture output\n\"$SCRIPT_ABSOLUTE_PATH\" 2>&1 | tee /tmp/script_output.log\n\n# Print completion message\necho \"Script executed.\"\n";
+		};
+		BA34098C2C4FE4D100D3A50F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\n# Define the base path for the .xcframework\nBASE_PATH=\"Frameworks/IBM_iOS_Workshop_Utils.framework\"\n\n# Construct the path to the script\nSCRIPT_RELATIVE_PATH=\"${BASE_PATH}/generate_id.sh\"\nSCRIPT_ABSOLUTE_PATH=\"${CONFIGURATION_BUILD_DIR}/IBM_iOS_Workshop.app/${SCRIPT_RELATIVE_PATH}\"\n\n# Debug: Print the SCRIPT_ABSOLUTE_PATH\necho \"SCRIPT_ABSOLUTE_PATH: $SCRIPT_ABSOLUTE_PATH\"\n\n# Verify if the script file exists\nif [ ! -f \"$SCRIPT_ABSOLUTE_PATH\" ]; then\n    echo \"Script file does not exist at: $SCRIPT_ABSOLUTE_PATH\"\n    exit 1\nfi\n\n# Ensure the script is executable\nchmod +x \"$SCRIPT_ABSOLUTE_PATH\"\n\n# Print message before running the script\necho \"Running the script...\"\n\n# Run the script and capture output\n\"$SCRIPT_ABSOLUTE_PATH\" 2>&1 | tee /tmp/script_output.log\n\n# Print completion message\necho \"Script executed.\"\n";
+		};
+		E8BDE4C2D06649A986EA31B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBM_iOS_Workshop/Pods-IBM_iOS_Workshop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBM_iOS_Workshop/Pods-IBM_iOS_Workshop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IBM_iOS_Workshop/Pods-IBM_iOS_Workshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F06525B4E0636451A65DB4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBM_iOS_Workshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA83843E2C16E4F900414E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA11F4342C16EE0700A35582 /* UITestWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEB5AD62BC71FAA00A1A77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB5AE22BC71FAA00A1A77F /* LoginViewController.swift in Sources */,
+				BAEB5ADE2BC71FAA00A1A77F /* AppDelegate.swift in Sources */,
+				BA3409AF2C58F93400D3A50F /* StoryboardIdentifiers.swift in Sources */,
+				BAEB5AE02BC71FAA00A1A77F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8384492C16E4F900414E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEB5AD92BC71FAA00A1A77F /* IBM_iOS_Workshop */;
+			targetProxy = BA8384482C16E4F900414E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAEB5AE32BC71FAA00A1A77F /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEB5AE42BC71FAA00A1A77F /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		BAEB5AE82BC71FAA00A1A77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEB5AE92BC71FAA00A1A77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA83844B2C16E4F900414E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708CDC43FA28495C4642AB7C /* Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IBM-iOS-WorkshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IBM_iOS_Workshop;
+			};
+			name = Debug;
+		};
+		BA83844C2C16E4F900414E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF3686A1916DD4D66112021 /* Pods-IBM_iOS_Workshop-IBM_iOS_WorkshopUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IBM-iOS-WorkshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IBM_iOS_Workshop;
+			};
+			name = Release;
+		};
+		BAEB5B022BC71FAA00A1A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEB5B032BC71FAA00A1A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEB5B052BC71FAA00A1A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B129895A853BBBE14649CD52 /* Pods-IBM_iOS_Workshop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IBM_iOS_Workshop/IBM_iOS_Workshop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IBM_iOS_Workshop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IBM-iOS-Workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEB5B062BC71FAA00A1A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8CC0B0C67FC0298CEDFC4C /* Pods-IBM_iOS_Workshop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IBM_iOS_Workshop/IBM_iOS_Workshop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IBM_iOS_Workshop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IBM-iOS-Workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA83844A2C16E4F900414E2E /* Build configuration list for PBXNativeTarget "IBM_iOS_WorkshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA83844B2C16E4F900414E2E /* Debug */,
+				BA83844C2C16E4F900414E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEB5AD52BC71FAA00A1A77F /* Build configuration list for PBXProject "IBM_iOS_Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEB5B022BC71FAA00A1A77F /* Debug */,
+				BAEB5B032BC71FAA00A1A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEB5B042BC71FAA00A1A77F /* Build configuration list for PBXNativeTarget "IBM_iOS_Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEB5B052BC71FAA00A1A77F /* Debug */,
+				BAEB5B062BC71FAA00A1A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEB5AD22BC71FAA00A1A77F /* Project object */;
+}
