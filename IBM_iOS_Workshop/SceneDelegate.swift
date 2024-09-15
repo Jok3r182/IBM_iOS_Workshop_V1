@@ -21,7 +21,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let storyboard = UIStoryboard(name: StoryboardIdentifier.loginStoryboard.rawValue, bundle: nil)
         initialViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIdentifier.loginViewController.rawValue)
         
-        
         window?.rootViewController = initialViewController
         window?.makeKeyAndVisible()
     }

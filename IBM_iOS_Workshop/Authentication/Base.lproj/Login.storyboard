@@ -21,7 +21,7 @@
                                 <rect key="frame" x="15" y="209" width="363" height="594"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="jwm-wv-7K7">
-                                        <rect key="frame" x="0.0" y="0.0" width="363" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="363" height="594"/>
                                         <viewLayoutGuide key="safeArea" id="ZSC-L4-wxg"/>
                                     </stackView>
                                 </subviews>

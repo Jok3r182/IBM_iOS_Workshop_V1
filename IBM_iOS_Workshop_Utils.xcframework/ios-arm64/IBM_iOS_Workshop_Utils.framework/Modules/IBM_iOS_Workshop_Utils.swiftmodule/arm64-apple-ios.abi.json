@@ -205,78 +205,15 @@
     },
     {
       "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 32,
-      "value": "\"What is the capital of France?\""
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "Array",
-      "offset": 292,
-      "length": 29,
-      "value": "[\"Paris\", \"Berlin\", \"Madrid\"]"
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "StringLiteral",
-      "offset": 323,
-      "length": 7,
-      "value": "\"Paris\""
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "StringLiteral",
-      "offset": 359,
-      "length": 16,
-      "value": "\"What is 2 + 2?\""
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "Array",
-      "offset": 377,
-      "length": 15,
-      "value": "[\"3\", \"4\", \"5\"]"
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 3,
-      "value": "\"4\""
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 31,
-      "value": "\"What is the color of the sky?\""
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "Array",
-      "offset": 459,
-      "length": 24,
-      "value": "[\"Green\", \"Blue\", \"Red\"]"
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
-      "kind": "StringLiteral",
-      "offset": 485,
-      "length": 6,
-      "value": "\"Blue\""
-    },
-    {
-      "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 556,
+      "offset": 326,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mataspauliusdregva\/IBM_iOS_Workshop_Utils\/IBM_iOS_Workshop_Utils\/QuizManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 602,
+      "offset": 372,
       "length": 1,
       "value": "0"
     },
