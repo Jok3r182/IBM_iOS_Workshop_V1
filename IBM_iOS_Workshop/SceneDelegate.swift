@@ -24,9 +24,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window?.rootViewController = initialViewController
         window?.makeKeyAndVisible()
-        
-        UserManager.startQuiz(viewController: initialViewController)
-        
     }
     
     func isUserLoggedIn() -> Bool {
@@ -44,4 +41,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidEnterBackground(_ scene: UIScene) {}
     
 }
-

@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/IBM_iOS_Workshop_Utils.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EBRK8vdy4Ci5OOYOSBNhzkV4q8I=
+		o3P3oCAt9JCkemXAJGBPMmtRFTM=
 		</data>
 		<key>Modules/IBM_iOS_Workshop_Utils.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/IBM_iOS_Workshop_Utils.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/6RZULNQcs9sdJnGtBEBunBC3PI=
+		+DcFJuT1NmQGPYf7AanNXDDuKTI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cKVwPQeALKHesL36YCAaq2JT7Bk9KPo3YRgk2IFPBYA=
+			Kb9aUvsvZHStk4HJVP25VZmoASKALryg31wE8v5cEUs=
 			</data>
 		</dict>
 		<key>Modules/IBM_iOS_Workshop_Utils.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uT7d7QUG7jMeU6WGYOSXNwgu5jgB+fojtEl2bkYAcTM=
+			BKCB0ZKZvU/VhtMeUITHbCie78pAa4sYuUYankTR0Uw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

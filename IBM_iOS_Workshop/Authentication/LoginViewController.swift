@@ -10,5 +10,10 @@ import IBM_iOS_Workshop_Utils
 
 class LoginViewController: UIViewController {
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        UserManager.startQuiz(viewController: self)
+    }
+    
 }
 
